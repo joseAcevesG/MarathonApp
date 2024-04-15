@@ -5,7 +5,7 @@
 App designed to be a personalized running coach offering tailored training plans for a variety of goals and skill levels, from beginners to experienced runners aiming for new personal bests. 
 
 ## How does it work
-- From a **user perspective**: [Explain how the product works for the end user]
+- From a **user perspective**: [Figma mockups](https://www.figma.com/file/rs4EtbKcbPdxSGwxnGQhmw/Buy-Insurance-(Community)-(Community)?type=design&node-id=107-557&mode=design&t=Hae9hdYGQbWAMJig-0)
 - From a **developer perspective**:
   
       npm install
@@ -14,21 +14,28 @@ App designed to be a personalized running coach offering tailored training plans
     
 
 ## How to contribute
-- **Repo/Folder structure**: MVC Format
+- **Repo/Folder structure**: MVC pattern 
     - Controllers
     - Middlewares
     - Routes
     - Utils
     - Models
 - **Tools**:
+    - Javascript
+    - Jest
+    - HTML
+    - CSS
+    - Handlebars
+    - MongoDB
+- **Requirements**:
     - Node.js
     - Git
     - Credentials
-- **Requirements**:
 
 ### Contribution Process
 - **Pull request creation**:
     - To merge something to the branches it is needed to create a pull request and that pull request have to pass all the checks and minimun one review
+    - The new created branches needs to be name after the feature that is going to be working in that branch
 - **Checks/Tests**: 
     - Linter
     - Pre-commit
