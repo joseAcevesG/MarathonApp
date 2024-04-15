@@ -1,5 +1,5 @@
 
-# README
+# MARATHON APP
 
 ## Purpose/Description
 App designed to be a personalized running coach offering tailored training plans for a variety of goals and skill levels, from beginners to experienced runners aiming for new personal bests. 
