@@ -16,8 +16,8 @@ App designed to be a personalized running coach offering tailored training plans
     
 
 ## How to contribute
-
 - **Repo/Folder structure**: [MVC pattern](https://developer.mozilla.org/en-US/docs/Glossary/MVC) 
+
     - Controllers
     - Middlewares
     - Routes
