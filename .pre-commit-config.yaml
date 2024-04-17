@@ -3,7 +3,7 @@ repos:
     rev: v8.56.0
     hooks:
       - id: eslint
-        files: \.[j]sx?$
+        files: \.js$  # This should correctly target JavaScript files
         args: ["--config", ".eslintrc.js"]
 
   - repo: https://github.com/pre-commit/mirrors-prettier
