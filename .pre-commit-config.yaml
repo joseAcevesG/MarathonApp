@@ -5,7 +5,7 @@ repos:
       - id: eslint
         files: \.[jt]sx?$
         types: [file]
-        args: ["--config", ".eslintrc.json", "--ignore-path", ".eslintignore"]
+        args: ["--config", ".eslintrc.js"]
 
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: v4.0.0-alpha.8
