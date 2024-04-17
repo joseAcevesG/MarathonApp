@@ -30,10 +30,12 @@ App designed to be a personalized running coach offering tailored training plans
     - CSS
     - Handlebars
     - MongoDB
+    - Python
+    - Pre-commit
 - **Requirements**:
     - Node.js
     - Git
-    - Credentials
+    - Repository permissions (To ask for permissions contact a code owner)
 
 
 ### Contribution Process
