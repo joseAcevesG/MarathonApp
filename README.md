@@ -40,8 +40,14 @@ App designed to be a personalized running coach offering tailored training plans
 
 ### Contribution Process
 
+- **Commit**:
+
+  - Use of the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+  - Recommended to use the [gitmoji](https://gitmoji.dev/) to make the commits more readable
+  - If vs code is used, the [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) extension is recommended
+
 - **Pull request creation**:
-  - To merge something to the branches it is needed to create a pull request and that pull request have to pass all the checks and minimun one review
+  - To merge something to the branches it is needed to create a pull request and that pull request have to pass all the checks and minimum one review
   - The new created branches needs to be name after the feature that is going to be working in that branch
 - **Checks/Tests**:
   - Linter
