@@ -6,6 +6,9 @@ node_modules/
 .pnpm-debug.log
 pnpm-lock.yaml
 
+#npm
+package-lock.json
+
 # vscode
 .vscode/
 
