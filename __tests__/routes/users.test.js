@@ -39,7 +39,7 @@ describe("users.js", () => {
 	test("should register a user successfully with all required fields", async () => {
 		const userData = {
 			email: "test@example.com",
-			password: "Password123",
+			password: "Password123", // pragma: allowlist secret
 			username: "testuser",
 		};
 		db.mockResolvedValue(true); // Simula una respuesta exitosa de la base de datos
