@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 
 // Utility functions to handle token generation and verification
-const secret = "your-secret-key"; // This should be kept secure
+const secret = "your-secret-key"; // pragma: allowlist secret
 
 function generateToken(payload, expiresIn = "1h") {
 	return jwt.sign(payload, secret, { expiresIn });
