@@ -49,7 +49,7 @@ describe("users.js", () => {
 
 	// TC6: Autenticación exitosa
 	test("should authenticate a user with correct credentials", async () => {
-		const credentials = { email: "test@example.com", password: "Password123" };
+		const credentials = { email: "test@example.com", password: "Password123" }; // pragma: allowlist secret
 		db.findUser.mockResolvedValue({ id: 1, ...credentials }); // Simula encontrar al usuario en la base de datos
 		const result = await loginUser(credentials);
 		expect(result.isAuthenticated).toBeTruthy();
