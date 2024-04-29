@@ -53,6 +53,14 @@ App designed to be a personalized running coach offering tailored training plans
   - Linter
   - Pre-commit
 - **Release process**:
+
   - Main (Develop): This branch is going to be use for the general development of the project
   - Test: This branch is going to be use for the system test so it enables the merge to production
   - Production: This branch its the main versioning for the main app
+
+  ### Mockups
+
+  ![Mockup](./resources/WhatsApp%20Image%202024-04-24%20at%2012.39.50_bf04bc0d.jpg)
+  ![Mockup](./resources/WhatsApp%20Image%202024-04-24%20at%2012.40.11_c5993cb9.jpg)
+  ![Mockup](./resources/WhatsApp%20Image%202024-04-24%20at%2012.40.22_f214463e.jpg)
+  ![Mockup](./resources/WhatsApp%20Image%202024-04-24%20at%2012.39.40_4040f095.jpg)
