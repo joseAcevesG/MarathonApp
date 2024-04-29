@@ -12,14 +12,14 @@ function hashPassword(password) {
 describe("Password Hashing", () => {
 	// TC1: Correct Password Hashing
 	test("hashes a password correctly", () => {
-		const password = "testPassword123";
+		const password = "testPassword123"; // pragma: allowlist secret
 		const hash = hashPassword(password);
 		expect(hash).not.toBe(password);
 	});
 
 	// TC2: Consistent Hash for the Same Input
 	test("generates a consistent hash for the same input", () => {
-		const password = "consistentInput";
+		const password = "consistentInput"; // pragma: allowlist secret
 		const hash1 = hashPassword(password);
 		const hash2 = hashPassword(password);
 		expect(hash1).toBe(hash2);
@@ -27,8 +27,8 @@ describe("Password Hashing", () => {
 
 	// TC3: Unique Hashes for Different Passwords
 	test("generates unique hashes for different passwords", () => {
-		const password1 = "uniquePassword1";
-		const password2 = "uniquePassword2";
+		const password1 = "uniquePassword1"; // pragma: allowlist secret
+		const password2 = "uniquePassword2"; // pragma: allowlist secret
 		const hash1 = hashPassword(password1);
 		const hash2 = hashPassword(password2);
 		expect(hash1).not.toBe(hash2);
@@ -43,7 +43,7 @@ describe("Password Hashing", () => {
 
 	// TC5: Performance and Execution Time Tests
 	test("hash function execution time is reasonable", () => {
-		const password = "performanceTest";
+		const password = "performanceTest"; // pragma: allowlist secret
 		const startTime = Date.now();
 		hashPassword(password);
 		const endTime = Date.now();
