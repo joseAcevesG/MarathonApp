@@ -1,0 +1,69 @@
+body,
+html {
+	height: 100%;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #1f1f1f; /* color de fondo general */
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.image-container {
+	margin-right: 50px; /* separación entre la imagen y el formulario */
+}
+
+.image-container img {
+	max-width: 100%; /* para asegurar que la imagen no sobrepase su contenedor */
+	height: auto;
+}
+
+.form-container {
+	text-align: center;
+	color: white;
+}
+
+h1 {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.input-group {
+	margin-bottom: 20px;
+}
+
+.input-group label {
+	display: block;
+	margin-bottom: 0.5em;
+	color: #aaa; /* color del texto del label */
+}
+
+.input-group input {
+	width: 300px; /* ancho del input */
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #aaa; /* borde inferior del input */
+	background-color: #333; /* color de fondo del input */
+	color: white;
+}
+
+.input-group input::placeholder {
+	color: #555;
+}
+
+button {
+	padding: 10px 20px;
+	border: none;
+	background-color: #0066cc; /* color de fondo del botón */
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #0052a3; /* color de fondo del botón*/
+}
